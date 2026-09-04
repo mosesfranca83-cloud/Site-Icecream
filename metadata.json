@@ -1,0 +1,6 @@
+{
+  "name": "Ice Cream Project",
+  "description": "Interactive showcase featuring artisanal ice cream and fresh smoothie bowls with dynamic ingredient motion and vibrant color transitions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Syne', Arial, sans-serif;
+    --font-display: 'Archivo Black', Arial, sans-serif;
+    --font-heading: 'Syne', Arial, sans-serif;
+    --color-orange-brand: #ea580c;
+    --color-bg-dark: #0A0A0A;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    user-select: none;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #0A0A0A;
+    color: #ffffff;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+/* Bold Typography Theme: Outline Text Stroke */
+.text-stroke-strong {
+  -webkit-text-stroke: 2px #ffffff;
+  color: transparent;
+}
+
+.text-stroke-subtle {
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.18);
+  color: transparent;
+}
+
+.text-stroke-orange {
+  -webkit-text-stroke: 2px #ea580c;
+  color: transparent;
+}
+
+/* Bold Typography Theme: Hard Offset Geometric Shadows */
+.shadow-brutal-orange {
+  box-shadow: 6px 6px 0px 0px #ea580c;
+}
+
+.shadow-brutal-orange-lg {
+  box-shadow: 14px 14px 0px 0px #ea580c;
+}
+
+.shadow-brutal-white {
+  box-shadow: 6px 6px 0px 0px #ffffff;
+}
+
+.shadow-brutal-black {
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+
+/* Bowl shadow effect matching original */
+.bowl-shadow {
+  filter: drop-shadow(0 28px 42px rgba(0, 0, 0, 0.75));
+}
+
+.ingredient-shadow {
+  filter: drop-shadow(0 16px 24px rgba(0, 0, 0, 0.6));
+}
+
